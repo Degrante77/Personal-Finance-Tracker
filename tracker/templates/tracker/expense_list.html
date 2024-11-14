@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Expenses</title>
+</head>
+<body>
+    <h1>Expenses</h1>
+    <ul>
+        {% for expense in expenses %}
+            <li>{{ expense.name }}: {{ expense.amount }} on {{ expense.date }}</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>

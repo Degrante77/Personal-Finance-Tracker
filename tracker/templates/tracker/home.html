@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Home - Personal Finance Tracker</title>
+</head>
+<body>
+    <h1>Welcome to the Personal Finance Tracker</h1>
+
+    <h2>Expenses</h2>
+    <ul>
+        {% for expense in expenses %}
+            <li>{{ expense.name }} - {{ expense.amount }}</li>
+        {% empty %}
+            <li>No expenses recorded yet.</li>
+        {% endfor %}
+    </ul>
+
+    <h2>Income</h2>
+    <ul>
+        {% for income in incomes %}
+            <li>{{ income.name }} - {{ income.amount }}</li>
+        {% empty %}
+            <li>No income recorded yet.</li>
+        {% endfor %}
+    </ul>
+
+    <p><a href="/expenses/">View Expenses</a></p>
+    <p><a href="/income/">View Income</a></p>
+</body>
+</html>
