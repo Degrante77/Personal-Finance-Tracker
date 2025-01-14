@@ -2,3 +2,6 @@ venv/
 .Rhistory
 Pers.ods
 personal_financial_tracker/fin_tracker/__pycache__/wsgi.cpython-313.pyc
+*.log
+*.env
+.idea/
