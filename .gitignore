@@ -5,3 +5,7 @@ personal_financial_tracker/fin_tracker/__pycache__/wsgi.cpython-313.pyc
 *.log
 *.env
 .idea/
+backend/personal_financial_tracker/fin_tracker/__pycache__/urls.cpython-313.pyc
+backend/personal_financial_tracker/fin_tracker/__pycache__/urls.cpython-313.pyc
+backend/personal_financial_tracker/fin_tracker/__pycache__/settings.cpython-313.pyc
+backend/personal_financial_tracker/fin_tracker/__pycache__/__init__.cpython-313.pyc
