@@ -40,6 +40,7 @@ INSTALLED_APPS = [
 
     # My Apps
     'expenses',
+    'budget_spending',
 ]
 
 MIDDLEWARE = [
