@@ -89,7 +89,7 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'fin_tracker',
-        'USER': 'museveni',
+        'USER': 'postgres',
         'PASSWORD': 'Jinja1234.',
         'HOST': 'localhost',
         'PORT': '5432',
