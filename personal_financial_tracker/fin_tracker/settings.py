@@ -40,7 +40,15 @@ INSTALLED_APPS = [
 
     # My Apps
     'expenses',
-    'budget_spending',
+    'notes',
+    'receipts',
+    'income',
+    'ai',
+    'notifications',
+    'accounts',
+    'recommendations',
+    'users',
+    'analytics',
 ]
 
 MIDDLEWARE = [
