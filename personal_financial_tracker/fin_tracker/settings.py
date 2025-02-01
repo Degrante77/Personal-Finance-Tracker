@@ -90,7 +90,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'fin_tracker',
         'USER': 'postgres',
-        'PASSWORD': 'Jinja1234.',
+        'PASSWORD': 'Chepuc101.',
         'HOST': 'localhost',
         'PORT': '5432',
     }
